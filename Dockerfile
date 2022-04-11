@@ -9,9 +9,9 @@ RUN yum update -y \
     && yum install -y \
     nodejs \
     && yum clean all \
-    && npm install aws-cdk-lib \
+    && npm i aws-cdk-lib \
     && npm i -g aws-cdk@${AWS_CDK_VERSION}
 
-WORKDIR /aws-cdk-v2/app
+WORKDIR /cdk/app
 
 ENTRYPOINT [ "/bin/bash" ]
