@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  aws-cdk-v2:
+    stdin_open: true
+    tty: true
+    build: .
+    env_file: .awscli.env
+    volumes:
+      - .:/aws-cdk-v2
