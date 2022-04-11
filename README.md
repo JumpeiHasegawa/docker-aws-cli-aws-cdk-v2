@@ -20,13 +20,17 @@ AWS_SECRET_ACCESS_KEY=
 
 Build and run the container
 
-`docker-compose build`
-`docker-compose run app`
+```
+docker-compose build
+docker-compose run app
+```
 
 When the container starts,
 bash is running, so create a cdk project
 
-`cdk bootstrap`
-`cdk init app --language=typescript`
-`cdk synth`
-`cdk deploy`
+```
+cdk bootstrap
+cdk init app --language=typescript
+cdk synth
+cdk deploy
+```
