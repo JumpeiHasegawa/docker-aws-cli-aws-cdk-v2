@@ -2,9 +2,9 @@
 
 # Usage
 
-Copy the `.aws.env.dev` to create `.aws.env.`
+Copy the `.aws.env.default` to create `.aws.env.`
 
-`cp .aws.env.dev .aws.env`
+`cp .aws.env.default .aws.env`
 
 Set the access key, secret key, etc.
 for the AWS account to be used in .aws.env.
